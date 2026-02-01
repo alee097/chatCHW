@@ -1,0 +1,27 @@
+{
+  "name": "example_cough_module_v1",
+  "variables": [
+    "danger_sign",
+    "chest_indrawing",
+    "stridor",
+    "fast_breathing"
+  ],
+  "rules": [
+    {
+      "id": "R1",
+      "when": "danger_sign",
+      "then": "SEVERE"
+    },
+    {
+      "id": "R2",
+      "when": "chest_indrawing OR stridor",
+      "then": "SEVERE"
+    },
+    {
+      "id": "R3",
+      "when": "fast_breathing",
+      "then": "PNEUMONIA"
+    }
+  ],
+  "default": "COUGH_NO_PNEUMONIA"
+}

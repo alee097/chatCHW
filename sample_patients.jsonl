@@ -1,0 +1,10 @@
+{"id": "P1", "danger_sign": true, "chest_indrawing": false, "stridor": false, "fast_breathing": false}
+{"id": "P2", "danger_sign": false, "chest_indrawing": true, "stridor": false, "fast_breathing": true}
+{"id": "P3", "danger_sign": false, "chest_indrawing": false, "stridor": false, "fast_breathing": true}
+{"id": "P4", "danger_sign": false, "chest_indrawing": false, "stridor": false, "fast_breathing": false}
+{"id": "P5", "danger_sign": true, "chest_indrawing": true, "stridor": true, "fast_breathing": true}
+{"id": "P6", "danger_sign": false, "chest_indrawing": true, "stridor": true, "fast_breathing": false}
+{"id": "P7", "danger_sign": false, "chest_indrawing": false, "stridor": true, "fast_breathing": false}
+{"id": "P8", "danger_sign": false, "chest_indrawing": false, "stridor": false, "fast_breathing": true}
+{"id": "P9", "danger_sign": false, "chest_indrawing": true, "stridor": false, "fast_breathing": false}
+{"id": "P10", "danger_sign": false, "chest_indrawing": false, "stridor": false, "fast_breathing": false}

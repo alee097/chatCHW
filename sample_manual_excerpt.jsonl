@@ -1,0 +1,4 @@
+{"chunk_id": "C1", "text": "If danger_sign is true, classify as SEVERE."}
+{"chunk_id": "C2", "text": "If chest_indrawing OR stridor is true, classify as SEVERE."}
+{"chunk_id": "C3", "text": "If fast_breathing is true, classify as PNEUMONIA."}
+{"chunk_id": "C4", "text": "Otherwise classify as COUGH_NO_PNEUMONIA."}
