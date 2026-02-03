@@ -1,0 +1,8 @@
+{
+    "rules": [
+        {"id": "R1", "when": "danger_sign", "then": "SEVERE", "evidence": "C1"}, 
+        {"id": "R2", "when": "chest_indrawing OR stridor", "then": "SEVERE", "evidence": "C2"}, 
+        {"id": "R3", "when": "fast_breathing", "then": "PNEUMONIA", "evidence": "C3"}
+    ], 
+    "default": "COUGH_NO_PNEUMONIA"
+}

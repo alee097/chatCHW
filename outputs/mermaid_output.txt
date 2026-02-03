@@ -1,0 +1,8 @@
+flowchart TD
+ Start --> R1
+R1 --> |Yes| SEVERE
+R1 --> |No| R2
+R2 --> |Yes| SEVERE
+R2 --> |No| R3
+R3 --> |Yes| PNEUMONIA
+R3 --> |No| COUGH_NO_PNEUMONIA

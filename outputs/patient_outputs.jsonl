@@ -1,0 +1,10 @@
+{"patient_id": "P1", "outcome": "SEVERE", "matched_rule": "R1", "path": ["R1: True"], "justification": "R1 (danger_sign) was found True", "evidence": "C1"}
+{"patient_id": "P2", "outcome": "SEVERE", "matched_rule": "R2", "path": ["R1: False", "R2: True"], "justification": "R2 (chest_indrawing OR stridor) was found True", "evidence": "C2"}
+{"patient_id": "P3", "outcome": "PNEUMONIA", "matched_rule": "R3", "path": ["R1: False", "R2: False", "R3: True"], "justification": "R3 (fast_breathing) was found True", "evidence": "C3"}
+{"patient id": "P4", "outcome": "COUGH_NO_PNEUMONIA", "matched_rule": "None", "path": ["R1: False", "R2: False", "R3: False"], "justification": "No rule was found True", "evidence": "N/A"}
+{"patient_id": "P5", "outcome": "SEVERE", "matched_rule": "R1", "path": ["R1: True"], "justification": "R1 (danger_sign) was found True", "evidence": "C1"}
+{"patient_id": "P6", "outcome": "SEVERE", "matched_rule": "R2", "path": ["R1: False", "R2: True"], "justification": "R2 (chest_indrawing OR stridor) was found True", "evidence": "C2"}
+{"patient_id": "P7", "outcome": "SEVERE", "matched_rule": "R2", "path": ["R1: False", "R2: True"], "justification": "R2 (chest_indrawing OR stridor) was found True", "evidence": "C2"}
+{"patient_id": "P8", "outcome": "PNEUMONIA", "matched_rule": "R3", "path": ["R1: False", "R2: False", "R3: True"], "justification": "R3 (fast_breathing) was found True", "evidence": "C3"}
+{"patient_id": "P9", "outcome": "SEVERE", "matched_rule": "R2", "path": ["R1: False", "R2: True"], "justification": "R2 (chest_indrawing OR stridor) was found True", "evidence": "C2"}
+{"patient id": "P10", "outcome": "COUGH_NO_PNEUMONIA", "matched_rule": "None", "path": ["R1: False", "R2: False", "R3: False"], "justification": "No rule was found True", "evidence": "N/A"}
