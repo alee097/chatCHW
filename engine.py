@@ -9,7 +9,7 @@ def import_json(filename):
         print(f"Error: {filename} was not found.")
         return None
     except json.JSONDecodeError:
-        print(f"Error: failed to decode JSON from {filename}.")
+        print(f"Error: failed to parse JSON from {filename}.")
         return None
     
 def import_jsonl(filename):
@@ -26,7 +26,7 @@ def import_jsonl(filename):
         print(f"Error: {filename} was not found.")
         return None
     except json.JSONDecodeError:
-        print(f"Error: failed to decode JSON from {filename}.")
+        print(f"Error: failed to parse JSON from {filename}.")
         return None   
 
 def interpret(input_ruleset):
@@ -73,7 +73,7 @@ def evaluate(input_ruleset, input_patient): #takes in one line of jsonl input_pa
         try:
             status = eval(condition, {}, input_patient)
         except Exception:
-            print(f"Runtime error in {rule_id}.")
+            print(f"Runtime/syntax error in {rule_id}.")
             status = False
         path.append(f"{rule_id}: {status}")
 
@@ -127,7 +127,7 @@ if __name__ == "__main__":
     sample_ruleset = import_json("sample_data/sample_ruleset.json")
     sample_patients = import_jsonl("sample_data/sample_patients.jsonl")
     sample_excerpt = import_jsonl("sample_data/sample_manual_excerpt.jsonl")
-    
+
     print("-----------------Mermaid-----------------\n")
     print(interpret(sample_ruleset))
 
