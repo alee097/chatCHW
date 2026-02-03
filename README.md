@@ -1,17 +1,18 @@
-# chatCHW
-# Mini DMN Compiler and Interpreter
+# chatCHW Mini DMN Compiler and Interpreter
 
 Prerequisites: Python
 
-# Clone repo:
+```
+#Clone repo:
 git clone https://github.com/alee097/chatCHW.git
 cd chatCHW
 
-# Run engine.py to view demo outputs on sample data:
+#Run engine.py to view demo outputs on sample data:
 python engine.py
 
-# Run tests.py to run tests:
+#Run tests.py to run tests:
 python tests.py
+```
 
 # Project Structure
 - engine.py: Contains core logic behind interpretation, 
